@@ -1,10 +1,14 @@
 import React from 'react'
+import AboutPage from './AboutComponents/AboutPage'
+import AboutCards from './SubComponents/AboutCards'
+import MissionVision from './AboutComponents/MissionVision'
 
 function About() {
   return (
     <div>
-      <h1>About
-About</h1>
+      <AboutPage/>
+      <AboutCards/>
+      <MissionVision/>
     </div>
   )
 }
