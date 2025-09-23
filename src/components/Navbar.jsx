@@ -79,7 +79,7 @@ export default function Navbar() {
           sidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out z-50`}
       >
-        <div className="flex justify-between items-center p-4 border-b bg-[#171512]">
+        <div className="flex justify-between items-center p-4 border-b bg-[#172D20]">
           <span className="font-bold text-xl text-[#D99021]">AZAM DECOR</span>
           <button
             className="text-[#D99021]"
@@ -102,7 +102,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="absolute bottom-1 left-0 h-9 w-full flex justify-around bg-[#171512] text-[#D99021]">
+        <div className="absolute bottom-1 left-0 h-9 w-full flex justify-around bg-[#172D20] text-[#D99021]">
           {socialIcons.map((social, idx) => (
             <a
               href={social.link}
