@@ -31,7 +31,7 @@ export default function AboutCards() {
         {/* Left Image */}
         <div className="md:w-1/2">
           <img
-            src="https://picsum.photos/600/500"
+            src="/images/Azam_Decor_Signage_in_3D_Design[1].png"
             alt="About Us"
             className="rounded-xl shadow-lg w-full"
           />
@@ -41,11 +41,12 @@ export default function AboutCards() {
         <div className="md:w-1/2 flex flex-col justify-center">
           <h2 className="text-4xl font-bold mb-4">About Us</h2>
           <p className="text-gray-700 mb-6">
-            Azam Decor is your trusted interior design studio. We combine modern
-            styles with elegance and functionality. Our team focuses on
-            creating spaces that reflect your personality. Every project is
-            unique and tailored to your needs. We ensure that our designs
-            transform your home into a dream space.
+            Azam Decor Interior Design Studio is a creative and innovative interior design firm dedicated to transforming spaces into functional, elegant, and personalized environments. We specialize in residential, commercial, and office interiors, blending aesthetics with practicality to create spaces that reflect our clients’ unique style and vision. Our team of experienced designers focuses on every detail—from concept development and space planning to material selection and finishing touches—ensuring a seamless and inspiring design experience. At Azam Decor, we don’t just design interiors; we craft lifestyles.
+            Azam Decor Interior Design Studio is a premier interior design firm committed to transforming ordinary spaces into extraordinary experiences. With a perfect blend of creativity, functionality, and elegance, we craft interiors that reflect the personality, lifestyle, and aspirations of our clients. Our expertise spans residential, commercial, and office interiors, offering customized solutions that balance aesthetics with practicality.
+
+            
+
+
           </p>
           <button className="bg-yellow-500 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-400 w-max">
             Learn More

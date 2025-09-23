@@ -36,12 +36,12 @@ export default function Navbar() {
     <nav className="bg-white shadow-md fixed top-9 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Left: Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center ">
           <a href="/#home" className="flex items-center">
             <img
               src="/images/image.png"
               alt="Company Logo"
-              className="h-16 w-16 mr-2"
+              className="h-16 w-16 mr-2 "
             />
             <p className="font-bold text-1xl m-2">
               AZAM DECOR <br />

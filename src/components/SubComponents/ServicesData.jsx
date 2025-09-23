@@ -30,7 +30,7 @@ const serviceData = {
   // Add remaining services here
 };
 
-export default function serviceData() {
+export default function ServiceData() {
   const { id } = useParams();
   const service = serviceData[id];
   const [popupImage, setPopupImage] = useState(null);

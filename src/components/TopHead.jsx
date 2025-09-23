@@ -10,7 +10,7 @@ import {
 
 export default function TopHead() {
   return (
-    <header className="bg-[#171512] text-[#D99021] text-sm px-4 py-2 fixed top-0 w-full z-50">
+    <header className="bg-[#172D20] text-[#D99021] text-sm px-4 py-2 fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Mobile View: Left Text */}
         <p className="block md:hidden hover:text-yellow-400"><a href="#">Call us: +91 9876543210</a></p>

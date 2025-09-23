@@ -12,6 +12,7 @@ import Gallery from "./components/Gallery";
 import Video from "./components/Video";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
+import ServiceData from "./components/SubComponents/ServicesData";
 
 
 
@@ -29,7 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          {/* <Route path="/services/:id" element={<ServiceDetail />} /> */}
+          <Route path="/services/:id" element={<ServiceData />} />
           <Route path="/certificate" element={<Certificate />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/video" element={<Video />} />

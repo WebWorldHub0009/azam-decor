@@ -70,22 +70,30 @@ export default function ServiceCard() {
         </p>
 
         {/* Service Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-white text-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col"
+              className="bg-white text-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col"
             >
-              <img src={service.image} alt={service.title} className="w-full h-48 object-cover" />
+              <img
+                src={service.image}
+                alt={service.title}
+                className="w-full h-48 object-cover"
+              />
               <div className="p-4 flex flex-col flex-1">
                 <h3 className="font-semibold text-lg mb-2">{service.title}</h3>
                 <p className="text-sm flex-1">{service.description}</p>
-                <Link
-                  to={`/service/${service.id}`}
-                  className="mt-4 bg-yellow-500 text-black py-2 px-4 rounded-xl hover:bg-yellow-400 w-max"
-                >
-                  Learn More
-                </Link>
+
+                {/* Centered Button */}
+                <div className="mt-4 flex justify-center">
+                  <Link
+                    to={`/service/${service.id}`}
+                    className="bg-yellow-500 text-black py-2 px-6 rounded-xl hover:bg-yellow-400 transition-colors duration-300"
+                  >
+                    Learn More
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
