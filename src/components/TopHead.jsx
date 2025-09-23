@@ -8,7 +8,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
-export default function Header() {
+export default function TopHead() {
   return (
     <header className="bg-[#171512] text-[#D99021] text-sm px-4 py-2 fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
