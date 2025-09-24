@@ -43,7 +43,7 @@ const GalleryHero = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
-          <button
+        <a href="#gallery">  <button
             className="px-6 py-3 rounded-full font-semibold shadow-md transition"
             style={{ backgroundColor: "#D99021", color: "#171512" }}
             onMouseEnter={(e) =>
@@ -54,8 +54,8 @@ const GalleryHero = () => {
             }
           >
             Learn More
-          </button>
-          <button
+          </button></a>
+         <a href="/services"> <button
             className="px-6 py-3 rounded-full border-2 font-semibold shadow-md transition"
             style={{
               borderColor: "#D99021",
@@ -72,7 +72,7 @@ const GalleryHero = () => {
             }}
           >
             Explore Services
-          </button>
+          </button></a>
         </motion.div>
       </div>
     </section>
