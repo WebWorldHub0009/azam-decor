@@ -7,7 +7,7 @@ const HeroServices = () => {
       className="relative w-full min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://source.unsplash.com/1600x900/?interior,design')", // apni background image yahan daalo
+          "url('/images/cff5e1cba8964bcaeaee87cf0eaecb59.jpg')", // apni background image yahan daalo
       }}
     >
       {/* Overlay */}
