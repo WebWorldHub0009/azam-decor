@@ -1,10 +1,10 @@
 import React from 'react'
+import HeroServices from './ServiceComponents/HeroServices'
 
 function Services() {
   return (
     <div>
-      <h1>Services
-Services</h1>
+      <HeroServices/>
     </div>
   )
 }

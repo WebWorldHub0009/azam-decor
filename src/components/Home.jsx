@@ -5,6 +5,7 @@ import ServiceCard from './SubComponents/ServiseCard';
 import Portfolio from './SubComponents/Portfolio';
 import ContactHome from './SubComponents/ContactHome';
 import Counters from './SubComponents/Counters';
+import TeamSection from './SubComponents/TeamSection';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <AboutCards/>
       <Counters/>
       <ServiceCard/>
+      <TeamSection/>
       <Portfolio/>
       <ContactHome/>
       
