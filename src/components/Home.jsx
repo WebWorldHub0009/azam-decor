@@ -8,10 +8,15 @@ import Counters from './SubComponents/Counters';
 import TeamSection from './SubComponents/TeamSection';
 import ContactPage from './ContactComponents/ContactPage';
 import WhyChooseUs from './SubComponents/WhyChooseUs';
+import ContactPopup from './SubComponents/ContactPopup';
+import FloatingActionButton from './SubComponents/FloatingActionButton';
 
 function Home() {
   return (
     <div>
+
+      <FloatingActionButton/>
+      <ContactPopup/>
       <HomePage/>
       <AboutCards/>
       <Counters/>
