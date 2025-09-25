@@ -3,22 +3,22 @@ import React, { useState } from "react";
 const portfolioData = [
   {
     title: "Modern Living Room",
-    img: "/images/Azam_Decor_Signage_in_3D_Design[1].png",
+    img: "/images/8f1c2aae-646e-4e8b-8783-1f6a69621b44.jpeg",
     description: "Elegant and cozy living space.",
   },
   {
     title: "Luxury Bedroom",
-    img: "/images/e6dfe5d171630e764b73a0c1192d1265.jpg",
+    img: "/images/35 Colorful Modern Bedroom Designs Ideas »….jpeg",
     description: "Comfort meets style.",
   },
   {
     title: "Kitchen Design",
-    img: "/images/Azam_Decor_Signage_in_3D_Design[1].png",
+    img: "/images/modern sleek white and yellow kitchen.jpeg",
     description: "Sleek and functional kitchen.",
   },
   {
     title: "Office Setup",
-    img: "/images/e6dfe5d171630e764b73a0c1192d1265.jpg",
+    img: "/images/30 Intriguing Home Office Ideas for Small Spaces.jpeg",
     description: "Productive workspace design.",
   },
 ];

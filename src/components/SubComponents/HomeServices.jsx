@@ -53,7 +53,7 @@ const services = [
   },
 ];
 
-export default function ServiceCard() {
+export default function HomeServices() {
   return (
     <section
       id="services"

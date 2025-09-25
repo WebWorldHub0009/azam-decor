@@ -45,7 +45,7 @@ const ContactHero = () => {
         <div className="flex justify-center gap-6">
           <Link to="/">
             <button
-              className="px-6 py-3 rounded-2xl font-semibold shadow-lg transition duration-300"
+              className="px-6 py-3 rounded-2xl font-semibold shadow-lg transition duration-300 "
               style={{
                 backgroundColor: "#172D20",
                 color: "#D99021",

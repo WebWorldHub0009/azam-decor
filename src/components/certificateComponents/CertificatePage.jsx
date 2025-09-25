@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const CertificatePage = () => {
   return (
@@ -49,7 +50,7 @@ const CertificatePage = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
-          <button
+         <a href="#certificate"> <button
             className="px-6 py-3 rounded-full font-semibold shadow-md transition"
             style={{
               backgroundColor: "#D99021",
@@ -63,8 +64,8 @@ const CertificatePage = () => {
             }
           >
             Learn More
-          </button>
-          <button
+          </button></a>
+        <Link to="/contact">  <button
             className="px-6 py-3 rounded-full border-2 font-semibold shadow-md transition"
             style={{
               borderColor: "#D99021",
@@ -81,7 +82,7 @@ const CertificatePage = () => {
             }}
           >
             Contact Us
-          </button>
+          </button></Link>
         </motion.div>
       </div>
     </section>

@@ -1,11 +1,13 @@
 import React from 'react'
 import HomePage from './SubComponents/HomePage'
 import AboutCards from './SubComponents/AboutCards';
-import ServiceCard from './SubComponents/ServiseCard';
+// import HomeServices from './SubComponents/HomeServices';
 import Portfolio from './SubComponents/Portfolio';
-import ContactHome from './SubComponents/ContactHome';
+// import ContactHome from './SubComponents/ContactHome';
 import Counters from './SubComponents/Counters';
 import TeamSection from './SubComponents/TeamSection';
+import ContactPage from './ContactComponents/ContactPage';
+import WhyChooseUs from './SubComponents/WhyChooseUs';
 
 function Home() {
   return (
@@ -13,10 +15,11 @@ function Home() {
       <HomePage/>
       <AboutCards/>
       <Counters/>
-      <ServiceCard/>
+      {/* <HomeServices/> */}
       <TeamSection/>
       <Portfolio/>
-      <ContactHome/>
+      <WhyChooseUs/>
+      <ContactPage/>
       
     </div>
   )

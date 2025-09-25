@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const AboutPage = () => {
   const scrollToSection = (id) => {
@@ -51,18 +52,18 @@ const AboutPage = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="mt-6 ml-6 flex space-x-4"
         >
-          <button
+          <a href="#about"><button
             onClick={() => scrollToSection("mission-vision")} // 👈 niche ke section ka id daalna
             className="bg-[#D99021] text-[#171512] px-6 py-3 rounded-lg font-semibold hover:bg-[#172D20] hover:text-white transition-all duration-300 shadow-md"
           >
             Learn More
-          </button>
-          <button
+          </button></a>
+          <Link to="/contact"><button
             onClick={() => scrollToSection("contact")}
             className="bg-transparent border-2 border-[#D99021] text-[#D99021] px-6 py-3 rounded-lg font-semibold hover:bg-[#D99021] hover:text-[#171512] transition-all duration-300"
           >
             Contact Us
-          </button>
+          </button></Link>
         </motion.div>
       </div>
     </section>

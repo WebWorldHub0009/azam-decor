@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const images = [
   "https://picsum.photos/id/1015/1920/1080",
@@ -57,18 +58,18 @@ export default function HomePage() {
         </motion.p>
 
         <div className="flex gap-4">
-          <motion.button
+          <Link to="/services"><motion.button
             whileHover={{ scale: 1.1 }}
             className="bg-[#D99021] hover:text-[#D99021]  hover:border-[#D99021] border-2 border-[#D99021] hover:bg-transparent  text-black px-6 py-3 rounded-xl font-semibold shadow-lg"
           >
-            Learn More
-          </motion.button>
-          <motion.button
+            Our Services
+          </motion.button></Link>
+          <Link to="/contact"><motion.button
             whileHover={{ scale: 1.1 }}
             className="bg-transparent border-2 border-[#D99021] text-[#D99021] hover:bg-[#D99021] hover:text-black  px-6 py-3 rounded-xl font-semibold"
           >
             Contact Us
-          </motion.button>
+          </motion.button></Link>
         </div>
       </div>
     </section>

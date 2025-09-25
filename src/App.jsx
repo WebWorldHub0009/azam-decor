@@ -7,12 +7,13 @@ import './App.css'
 import Layout from "./Layout";
 import Home from "./components/Home";
 import About from "./components/About";
+import Services from "./components/Services";
 import Certificate from "./components/Certificate";
 import Gallery from "./components/Gallery";
 import Video from "./components/Video";
 import Contact from "./components/Contact";
-import Services from "./components/Services";
-// import ServiceData from "./components/SubComponents/ServicesData";
+import ServiceDetail from "./components/ServiceComponents/ServiceDetail";
+
 
 
 
@@ -28,7 +29,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          
+          <Route path="/services/:id" element={<ServiceDetail />} />
           <Route path="/certificate" element={<Certificate />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/video" element={<Video />} />

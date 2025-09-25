@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const HeroServices = () => {
   return (
@@ -20,7 +21,7 @@ const HeroServices = () => {
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-5xl md:text-6xl font-bold text-white mb-6"
+          className="text-5xl md:text-6xl font-bold text-[#D99021] mb-6"
         >
           Our Premium Services
         </motion.h1>
@@ -43,12 +44,12 @@ const HeroServices = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
-          <button className="px-6 py-3 rounded-full bg-white text-gray-900 font-semibold shadow-md hover:bg-gray-200 transition">
+          <a href="#services"><button className="px-6 py-3 rounded-full bg-[#D99021] text-gray-900 font-semibold shadow-md hover:bg-transparent hover:border-2 border-[#D99021] hover:text-[#D99021] transition">
             Learn More
-          </button>
-          <button className="px-6 py-3 rounded-full bg-transparent border-2 border-white text-white font-semibold shadow-md hover:bg-white hover:text-gray-900 transition">
+          </button></a>
+          <Link to="/gallery"><button className="px-6 py-3 rounded-full bg-transparent border-2 border-[#D99021] text-[#D99021] font-semibold shadow-md hover:bg-[#D99021] hover:text-gray-900 transition">
             Our Gallery
-          </button>
+          </button></Link>
         </motion.div>
       </div>
     </section>

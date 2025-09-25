@@ -30,28 +30,35 @@ export default function Footer() {
         {/* Quick Links + Services */}
         <div className="grid grid-cols-2 gap-6">
           <div>
-            <h3 className="text-white font-semibold mb-3">Quick Links</h3>
+            <h3 className="text-[#D99021] font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/" className="hover:text-white">Home</a></li>
-              <li><a href="/about" className="hover:text-white">About</a></li>
-              <li><a href="/gallery" className="hover:text-white">Gallery</a></li>
-              <li><a href="/contact" className="hover:text-white">Contact</a></li>
+              <li><a href="/" className="hover:text-[#D99021]">Home</a></li>
+              <li><a href="/about" className="hover:text-[#D99021]">About</a></li>
+              <li><a href="/Services" className="hover:text-[#D99021]">Services</a></li>
+              <li><a href="/Certificate" className="hover:text-[#D99021]">Certificate</a></li>
+              <li><a href="/gallery" className="hover:text-[#D99021]">Gallery</a></li>
+              <li><a href="/contact" className="hover:text-[#D99021]">Contact</a></li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold mb-3">Services</h3>
+            <h3 className="text-[#D99021] font-semibold mb-3">Services</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/services#design" className="hover:text-white">Interior Design</a></li>
-              <li><a href="/services#decor" className="hover:text-white">Decoration</a></li>
-              <li><a href="/services#planning" className="hover:text-white">Space Planning</a></li>
-              <li><a href="/services#consulting" className="hover:text-white">Consulting</a></li>
+              <li><a href="/services/1" className="hover:text-[#D99021]">PVC WALL PANEL</a></li>
+              <li><a href="/services/2" className="hover:text-[#D99021]">CLINILG PANEL</a></li>
+              <li><a href="/services/3" className="hover:text-[#D99021]">CHARCOL PANEL</a></li>
+              <li><a href="/services/4" className="hover:text-[#D99021]">WPC LOUVERS</a></li>
+              <li><a href="/services/5" className="hover:text-[#D99021]">FLUTED PANEL</a></li>
+              <li><a href="/services/6" className="hover:text-[#D99021]">PVC DOOR</a></li>
+              <li><a href="/services/7" className="hover:text-[#D99021]">UV MARBLE SHEET</a></li>
+              <li><a href="/services/8" className="hover:text-[#D99021]">WALL PAPER</a></li>
+              <li><a href="/services/9" className="hover:text-[#D99021]">KITCHEN DESIGN WALL</a></li>
             </ul>
           </div>
         </div>
 
         {/* Contact Section */}
         <div>
-          <h3 className="text-white font-semibold mb-3">Contact Us</h3>
+          <h3 className="text-[#D99021] font-semibold mb-3">Contact Us</h3>
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2">
               <FaMapMarkerAlt /> <span>123 Main Street, New Delhi</span>
@@ -66,10 +73,10 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex gap-4 mt-4">
-            <a href="#" className="hover:text-white"><FaFacebookF /></a>
-            <a href="#" className="hover:text-white"><FaInstagram /></a>
-            <a href="#" className="hover:text-white"><FaTwitter /></a>
-            <a href="#" className="hover:text-white"><FaLinkedin /></a>
+            <a href="#" className="hover:text-[#D99021]"><FaFacebookF /></a>
+            <a href="#" className="hover:text-[#D99021]"><FaInstagram /></a>
+            <a href="#" className="hover:text-[#D99021]"><FaTwitter /></a>
+            <a href="#" className="hover:text-[#D99021]"><FaLinkedin /></a>
           </div>
         </div>
       </div>
