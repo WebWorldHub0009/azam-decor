@@ -54,13 +54,13 @@ const AboutPage = () => {
         >
           <a href="#about"><button
             onClick={() => scrollToSection("mission-vision")} // 👈 niche ke section ka id daalna
-            className="bg-[#D99021] text-[#171512] px-6 py-3 rounded-lg font-semibold hover:bg-[#172D20] hover:text-white transition-all duration-300 shadow-md"
+            className="bg-[#D99021] text-[#fffffff] hover:border-2 hover:border-[#D99021] px-6 py-3 rounded-lg font-semibold hover:bg-transparent hover:text-[#D99021] transition-all duration-300 shadow-md cursor-pointer"
           >
             Learn More
           </button></a>
           <Link to="/contact"><button
             onClick={() => scrollToSection("contact")}
-            className="bg-transparent border-2 border-[#D99021] text-[#D99021] px-6 py-3 rounded-lg font-semibold hover:bg-[#D99021] hover:text-[#171512] transition-all duration-300"
+            className="bg-transparent border-2 border-[#D99021] text-[#D99021] px-6 py-3 rounded-lg font-semibold hover:bg-[#D99021] hover:text-[#171512] transition-all duration-300 cursor-pointer"
           >
             Contact Us
           </button></Link>

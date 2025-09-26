@@ -47,7 +47,7 @@ const ContactHero = () => {
             <button
               className="px-6 py-3 rounded-2xl font-semibold shadow-lg transition duration-300 "
               style={{
-                backgroundColor: "#172D20",
+                backgroundColor: "#ffffff",
                 color: "#D99021",
               }}
             >

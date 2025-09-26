@@ -13,7 +13,7 @@ import Translator from "./Translator";
 export default function Footer() {
   const [showTranslator, setShowTranslator] = useState(false);
   return (
-    <footer className="bg-[#172D20] text-gray-300 py-10">
+    <footer className="bg-[#ffffff] text-gray-800 py-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         
         {/* About Section */}
@@ -110,7 +110,7 @@ export default function Footer() {
         
 
       {/* Bottom Bar */}
-      <div className="text-center text-[15px] text-gray-300 mt-10 border-t border-gray-700 pt-4">
+      <div className="text-center text-[15px] text-gray-800 mt-10 border-t border-gray-700 pt-4">
         <span>© {new Date().getFullYear()} Your Company. All rights reserved.</span> <br /><span>Design and Developed by </span><a className="hover:text-[#D99021]" href="https://webworldhub.co.in/">Web World Hub</a>
         
       </div>

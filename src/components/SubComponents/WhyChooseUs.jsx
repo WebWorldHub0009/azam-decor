@@ -50,11 +50,11 @@ export default function WhyChooseUs() {
           {features.map((feature) => (
             <div
               key={feature.id}
-              className="bg-[#172D20] hover:bg-[#D99021] text-[#D99021] hover:text-[#171512] rounded-lg p-8 shadow-lg transform hover:scale-105 transition duration-500 cursor-pointer"
+              className="bg-[#ffffff] hover:bg-[#D99021] text-[#D99021] hover:text-[#171512] rounded-lg p-8 shadow-lg transform hover:scale-105 transition duration-500 cursor-pointer"
             >
               <feature.icon className="text-4xl mb-4 mx-auto" />
               <h3 className="text-2xl font-bold mb-2">{feature.title}</h3>
-              <p className="text-gray-100">{feature.description}</p>
+              <p className="text-gray-800">{feature.description}</p>
             </div>
           ))}
         </div>

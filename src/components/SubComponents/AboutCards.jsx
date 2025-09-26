@@ -49,7 +49,7 @@ export default function AboutCards() {
 
 
           </p>
-          <button className="bg-yellow-500 text-black px-6 py-3 rounded-xl font-semibold hover:bg-[#172D20] hover:text-yellow-300 w-max">
+          <button className="bg-yellow-500 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-700 hover:text-yellow-300 w-max">
             <Link to="/about">Learn More</Link>
           </button>
         </div>
@@ -60,7 +60,7 @@ export default function AboutCards() {
         {aboutCards.map((card, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-xl p-6 shadow-lg flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300 cursor-pointer hover:bg-[#172D20] hover:text-yellow-300"
+            className="bg-white rounded-xl p-6 shadow-lg flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300 cursor-pointer hover:bg-[#D99021]  hover:text-[#000000] "
           >
             {card.icon}
             <h3 className="text-xl font-semibold mt-4 mb-2">{card.title}</h3>

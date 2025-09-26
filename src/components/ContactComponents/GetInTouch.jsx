@@ -13,7 +13,7 @@ const GetInTouch = () => {
     <section className="w-full min-h-screen bg-[#171512] flex items-center justify-center px-6 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl w-full bg-white/10 backdrop-blur-md rounded-2xl shadow-2xl p-6">
         {/* Left: Form + Socials */}
-        <div className="flex flex-col justify-between bg-[#172D20]/90 rounded-2xl p-6 shadow-lg">
+        <div className="flex flex-col justify-between bg-[#f2ffcd]/50 rounded-2xl p-6 shadow-lg">
           <div>
             <h2 className="text-3xl font-bold mb-6 text-[#D99021]">
               Get in Touch
@@ -36,7 +36,7 @@ const GetInTouch = () => {
               />
               <button
                 type="submit"
-                className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#172D20] hover:text-[#D99021] transition"
+                className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#ffffff] hover:text-[#D99021] transition"
               >
                 Submit
               </button>
@@ -50,42 +50,42 @@ const GetInTouch = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+              <FaFacebook className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaTwitter className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+              <FaTwitter className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
             <a
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaInstagram className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+              <FaInstagram className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
             <a
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+              <FaLinkedin className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
             <a
               href="https://pinterest.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaPinterest className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+              <FaPinterest className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
             <a
               href="https://youtube.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaYoutube className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+              <FaYoutube className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
           </div>
         </div>

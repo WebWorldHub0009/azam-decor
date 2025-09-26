@@ -24,7 +24,7 @@ const ContactPage = () => {
       {/* Content */}
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl w-full bg-white/10 backdrop-blur-md rounded-2xl shadow-2xl p-8">
         {/* Left: Contact Form */}
-        <div className="bg-[#172D20]/90 rounded-2xl p-6 shadow-lg">
+        <div className="bg-[#f2ffcd]/50 rounded-2xl p-6 shadow-lg">
           <h2 className="text-3xl font-bold mb-6 text-[#D99021]">Send us a Message</h2>
           <form className="flex flex-col gap-5">
             <input
@@ -44,7 +44,7 @@ const ContactPage = () => {
             />
             <button
               type="submit"
-              className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#172D20] hover:text-[#D99021] transition"
+              className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#ffffff] hover:text-[#D99021] transition"
             >
               Submit
             </button>

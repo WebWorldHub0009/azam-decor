@@ -78,7 +78,7 @@ const Portfolio = () => {
           {portfolioData.map((item, index) => (
             <div
               key={index}
-              className="min-w-[250px] bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 "
+              className="min-w-[250px] bg-white  rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 "
               onMouseEnter={() => setBgImage(item.img)} // Hover pe background
             >
               <img
@@ -91,7 +91,7 @@ const Portfolio = () => {
                 <p className="text-gray-600">{item.description}</p>
                 <button
                   onClick={() => openModal(index)}
-                  className="mt-3 px-5 py-2 bg-[#172D20] text-[#D99021] font-semibold rounded-md hover:bg-[#D99021] hover:text-[#171512] transition"
+                  className="mt-3 px-5 py-2 bg-[#ffffff] text-[#D99021] font-semibold rounded-md hover:bg-[#D99021] hover:text-[#ffffff] border-1 border-[#D99021] transition cursor-pointer"
                 >
                   Learn More
                 </button>

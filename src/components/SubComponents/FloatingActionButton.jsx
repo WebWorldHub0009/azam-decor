@@ -44,7 +44,7 @@ const FloatingActionButton = () => {
       {/* Main Floating Button */}
       <button
         onClick={() => setOpen(!open)}
-        className="p-5 rounded-full bg-red-500 text-white shadow-lg hover:bg-red-600 transition-all"
+        className="p-5 rounded-full bg-[#D99021] text-white shadow-lg hover:bg-[#D99021] transition-all"
       >
         {open ? <FaTimes size={22} /> : <FaCommentDots size={22} />}
       </button>

@@ -28,7 +28,7 @@ const CertificateSection = () => {
           {certificates.map((cert) => (
             <div
               key={cert.id}
-              className="bg-[#172D20] rounded-2xl shadow-lg overflow-hidden"
+              className="bg-[#fff596] rounded-2xl shadow-lg overflow-hidden"
             >
               {/* PDF Preview */}
               <embed

@@ -17,7 +17,7 @@ const MissionVision = () => {
 
         <div className="grid md:grid-cols-2 gap-10">
           {/* Mission Card */}
-          <div className="bg-[#172D20]/90 rounded-xl shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:bg-[#D99021]/90 hover:text-[#171512]">
+          <div className="bg-[#ffffff]/90 rounded-xl text-black shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:bg-[#D99021]/90 hover:text-[#171512]">
             <FaBullseye className="text-5xl mb-4 text-[#D99021] hover:text-[#171512]" />
             <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
             <p className="text-base leading-relaxed">
@@ -27,7 +27,7 @@ const MissionVision = () => {
           </div>
 
           {/* Vision Card */}
-          <div className="bg-[#172D20]/90 rounded-xl shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:bg-[#D99021]/90 hover:text-[#171512]">
+          <div className="bg-[#ffffff]/90 rounded-xl  text-black shadow-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:scale-105 hover:bg-[#D99021]/90 hover:text-[#171512]">
             <FaEye className="text-5xl mb-4 text-[#D99021] hover:text-[#171512]" />
             <h3 className="text-2xl font-semibold mb-4">Our Vision</h3>
             <p className="text-base leading-relaxed">

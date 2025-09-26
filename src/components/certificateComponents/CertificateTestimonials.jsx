@@ -37,9 +37,15 @@ const CertificateTestimonials = () => {
         backgroundImage:
           "url('/images/Ready to elevate your online shopping game_ From….jpeg') ", // yahan apni fixed background image ka path daalna
         backgroundColor: "#171512",
+        
       }}
+      
     >
-      <div className="container mx-auto px-6">
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-[#171512]90"></div>
+
+      
+      <div className="container mx-auto px-6 ">
         <h2 className="text-4xl font-bold text-center text-[#D99021] mb-12">
           What Our Clients Say
         </h2>
@@ -48,17 +54,17 @@ const CertificateTestimonials = () => {
           {testimonials.map((test) => (
             <motion.div
               key={test.id}
-              className="bg-[#172D20]/90 rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-500 cursor-pointer"
+              className="bg-[#ffffff]/90  rounded-2xl p-6 shadow-lg hover:scale-105 transition-transform duration-500 cursor-pointer"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: test.id * 0.2 }}
             >
               {/* Quote Icon */}
-              <FaQuoteLeft className="text-[#D99021] text-2xl mb-4" />
+              <FaQuoteLeft className="text-[#D99021]  text-2xl mb-4" />
 
               {/* Feedback */}
-              <p className="text-gray-200 mb-6">{test.feedback}</p>
+              <p className="text-gray-900 mb-6">{test.feedback}</p>
 
               {/* Client Info */}
               <div className="flex items-center gap-4">
@@ -69,7 +75,7 @@ const CertificateTestimonials = () => {
                 />
                 <div>
                   <h3 className="text-[#D99021] font-semibold">{test.name}</h3>
-                  <p className="text-gray-300 text-sm">{test.role}</p>
+                  <p className="text-gray-900 text-sm">{test.role}</p>
                 </div>
               </div>
             </motion.div>
