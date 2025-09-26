@@ -45,14 +45,48 @@ const GetInTouch = () => {
 
           {/* Social Icons */}
           <div className="flex gap-5 text-2xl mt-8">
-            {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPinterest, FaYoutube].map(
-              (Icon, index) => (
-                <Icon
-                  key={index}
-                  className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white"
-                />
-              )
-            )}
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://pinterest.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaPinterest className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
           </div>
         </div>
 

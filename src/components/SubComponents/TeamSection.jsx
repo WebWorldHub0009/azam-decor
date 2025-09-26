@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "Mohd Asif",
+    name: "Azam Khan",
     role: "Founder & Designer",
     image: "/images/↑↑↑ Larger size on website 🔸 A man with short….jpeg",
     bio: "Creative head with a passion for modern interior design and client satisfaction.",
   },
   {
-    name: "Sarah Khan",
+    name: "Ayan Khan",
     role: "Project Manager",
     image: "/images/e21beaf3-460d-4c83-8d3d-b3a853657d83.jpeg",
     bio: "Expert in managing projects efficiently while ensuring top-notch quality.",
   },
   {
-    name: "Ravi Sharma",
+    name: "Arman khan",
     role: "Lead Architect",
     image: "/images/Your body can achieve anything -if your ego takes….jpeg",
     bio: "Specializes in architecture with innovative and sustainable designs.",

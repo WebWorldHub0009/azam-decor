@@ -11,7 +11,7 @@ const FloatingActionButton = () => {
       <AnimatePresence>
         {open && (
           <motion.a
-            href="https://wa.me/1234567890" // apna WhatsApp number daal dena
+            href="https://wa.me/9690008555" // apna WhatsApp number daal dena
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, x: 0 }}

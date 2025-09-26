@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 import {
   FaFacebook,
   FaTwitter,
@@ -14,7 +14,8 @@ const ContactPage = () => {
     <section
       className="relative w-full min-h-screen bg-fixed bg-cover bg-center flex items-center justify-center px-6 py-12"
       style={{
-        backgroundImage: "url('/images/3bc534bb-6155-4115-be75-b30744246806.jpeg')", // apni image ka path
+        backgroundImage:
+          "url('/images/3bc534bb-6155-4115-be75-b30744246806.jpeg')", // apni image ka path
       }}
     >
       {/* Overlay */}
@@ -59,29 +60,83 @@ const ContactPage = () => {
           </p>
 
           {/* Contact Details */}
-          <div className="flex items-center gap-4 mb-4 hover:scale-105 transition">
+          <a
+            href="tel:+919259648796"
+            className="flex items-center gap-4 mb-4 hover:scale-105 transition"
+          >
             <FaPhoneAlt className="text-[#D99021] text-2xl" />
-            <span>+91 98765 43210</span>
-          </div>
-          <div className="flex items-center gap-4 mb-4 hover:scale-105 transition">
+            <span>+91 9259648796</span>
+          </a>
+
+          <a
+            href="mailto:azamdecoraligarh@gmail.com"
+            className="flex items-center gap-4 mb-4 hover:scale-105 transition"
+          >
             <FaEnvelope className="text-[#D99021] text-2xl" />
-            <span>info@azamdecor.com</span>
-          </div>
-          <div className="flex items-center gap-4 mb-8 hover:scale-105 transition">
+            <span>azamdecoraligarh@gmail.com</span>
+          </a>
+
+          <a
+            href="https://maps.google.com/?q=Lucknow, Uttar Pradesh, India"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 mb-8 hover:scale-105 transition"
+          >
             <FaMapMarkerAlt className="text-[#D99021] text-2xl" />
-            <span>Lucknow, Uttar Pradesh, India</span>
-          </div>
+            <span>Plot No. 4/1126 Ground Floor Street No.1 Hamdard Nagar B Jamalpur Aligarh Bypass Road Opposite Dipti Hospital Aligarh Uttar Pradesh 202001 India</span>
+          </a>
 
           {/* Social Icons */}
           <div className="flex gap-5 text-2xl">
-            {[FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaPinterest, FaYoutube].map(
-              (Icon, index) => (
-                <Icon
-                  key={index}
-                  className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white"
-                />
-              )
-            )}
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://pinterest.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaPinterest className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaYoutube className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
+            <a
+              href="https://wa.me/9690008555"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
+            </a>
           </div>
         </div>
       </div>
