@@ -123,7 +123,7 @@ const Portfolio = () => {
               </p>
               <button
                 onClick={() => openModal(currentIndex)}
-                className="mt-3 px-5 py-2 bg-[#172D20] text-[#D99021] font-semibold rounded-md hover:bg-[#D99021] hover:text-[#171512] transition cursor-pointer"
+                className="mt-3 px-5 py-2 bg-[#D99021] text-[#ffffff] font-semibold rounded-md hover:bg-[#D99021] hover:text-[#171512] transition cursor-pointer"
               >
                 Learn More
               </button>
@@ -145,7 +145,7 @@ const Portfolio = () => {
             {/* Close button */}
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 text-2xl text-gray-800 hover:text-[#D99021]"
+              className="absolute top-4 right-4 text-2xl text-[#D99021] hover:text-[#ffffff]"
             >
               <FaTimes />
             </button>
