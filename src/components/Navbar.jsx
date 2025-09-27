@@ -44,7 +44,7 @@ export default function Navbar() {
               className="h-16 w-16 mr-2 "
             />
             <p className="font-bold text-1xl m-2">
-              AZAM DECOR <br />
+              {/* AZAM DECOR <br /> */}
               <span className=" font-medium">
                 INTERIOR DESIGN STUDIO
               </span>
