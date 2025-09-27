@@ -10,8 +10,16 @@ import {
 
 const GetInTouch = () => {
   return (
-    <section className="w-full min-h-screen bg-[#171512] flex items-center justify-center px-6 py-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl w-full bg-white/10 backdrop-blur-md rounded-2xl shadow-2xl p-6">
+    <section
+      className="w-full min-h-screen flex items-center justify-center px-6 py-12 bg-cover bg-center bg-fixed relative"
+      style={{
+        backgroundImage: "url('/images/d106f6e49631ca8499f93f8fb5cba8eb.jpg')", // apni image ka path yaha daalo
+      }}
+    >
+      {/* Overlay for better visibility */}
+      <div className="absolute inset-0 bg-black/60"></div>
+
+      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl w-full bg-white/10 backdrop-blur-md rounded-2xl shadow-2xl p-6">
         {/* Left: Form + Socials */}
         <div className="flex flex-col justify-between bg-[#f2ffcd]/50 rounded-2xl p-6 shadow-lg">
           <div>
@@ -36,7 +44,7 @@ const GetInTouch = () => {
               />
               <button
                 type="submit"
-                className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#ffffff] hover:text-[#D99021] transition"
+                className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#ffffff] hover:text-[#D99021] transition cursor-pointer"
               >
                 Submit
               </button>
@@ -45,46 +53,22 @@ const GetInTouch = () => {
 
           {/* Social Icons */}
           <div className="flex gap-5 text-2xl mt-8">
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
-            <a
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
-            <a
-              href="https://pinterest.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
               <FaPinterest className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
               <FaYoutube className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
           </div>

@@ -31,11 +31,11 @@ export default function WhyChooseUs() {
       className="py-16 bg-fixed bg-center bg-cover relative"
       style={{
         backgroundImage:
-          "url('https://source.unsplash.com/1600x900/?interior,design')",
+          "url('/images/808dc7ee-c1be-4bd4-bff7-01b5e5ad7b3a.jpeg')",
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#171512]/80"></div>
+      <div className="absolute inset-0 bg-[#171512]/50"></div>
 
       <div className="relative max-w-6xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold text-[#D99021] mb-6">
@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
           {features.map((feature) => (
             <div
               key={feature.id}
-              className="bg-[#ffffff] hover:bg-[#D99021] text-[#D99021] hover:text-[#171512] rounded-lg p-8 shadow-lg transform hover:scale-105 transition duration-500 cursor-pointer"
+              className="bg-[#ffffff] hover:bg-[#D99021] text-[#D99021] hover:text-[#171512] rounded-lg p-8 shadow-lg transform hover:scale-105 transition duration-500"
             >
               <feature.icon className="text-4xl mb-4 mx-auto" />
               <h3 className="text-2xl font-bold mb-2">{feature.title}</h3>

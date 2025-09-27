@@ -44,7 +44,7 @@ const ContactPage = () => {
             />
             <button
               type="submit"
-              className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#ffffff] hover:text-[#D99021] transition"
+              className="p-3 rounded-lg font-semibold shadow-lg bg-[#D99021] text-[#171512] hover:bg-[#ffffff] hover:text-[#D99021] transition cursor-pointer"
             >
               Submit
             </button>

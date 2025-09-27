@@ -45,10 +45,10 @@ const ContactHero = () => {
         <div className="flex justify-center gap-6">
           <Link to="/">
             <button
-              className="px-6 py-3 rounded-2xl font-semibold shadow-lg transition duration-300 "
+              className="px-6 py-3 rounded-2xl font-semibold shadow-lg transition duration-300 cursor-pointer bg-white text-[#D99021] hover:text-white hover:bg-[#D99021]"
               style={{
-                backgroundColor: "#ffffff",
-                color: "#D99021",
+                // backgroundColor: "#ffffff",
+                // color: "#D99021",
               }}
             >
               Go to Home
@@ -57,10 +57,10 @@ const ContactHero = () => {
 
           <Link to="/gallery">
             <button
-              className="px-6 py-3 rounded-2xl font-semibold shadow-lg transition duration-300"
+              className="px-6 py-3 rounded-2xl font-semibold shadow-lg transition duration-300 cursor-pointer bg-[#D99021] text-[#ffffff] hover:text-[#D99021] hover:bg-white"
               style={{
-                backgroundColor: "#D99021",
-                color: "#171512",
+                // backgroundColor: "#D99021",
+                // color: "#171512",
               }}
             >
               Go to Gallery

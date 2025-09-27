@@ -13,6 +13,7 @@ import Gallery from "./components/Gallery";
 import Video from "./components/Video";
 import Contact from "./components/Contact";
 import ServiceDetail from "./components/ServiceComponents/ServiceDetail";
+import ScrollToTop from "./ScrollToTop";
 
 
 
@@ -26,6 +27,9 @@ function App() {
     
     <Routes>
         <Route element={<Layout />}>
+        
+        
+          <Route element={<ScrollToTop/>} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />

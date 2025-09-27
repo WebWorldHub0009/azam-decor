@@ -5,7 +5,7 @@ const MissionVision = () => {
   return (
     <section
       className="relative bg-fixed bg-center bg-cover py-20 px-6"
-      style={{ backgroundImage: "url('/images/about-bg.jpg')" }} // apna image path daalna
+      style={{ backgroundImage: "url('/images/4732375e-1674-45fc-bf8d-5f56ebf76b9d.jpeg')" }} // apna image path daalna
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>

@@ -45,7 +45,7 @@ const GallerySection = () => {
       className="relative py-16 text-white bg-cover bg-center bg-fixed"
       id="gallery"
       style={{
-        backgroundImage: "url('/images/e1c83e58d6fe2fa7b67df224e9ac1468.jpg')", // yahan apni background image ka path
+        backgroundImage: "url('/images/Photo abstract dark futuristic backgroun….jpeg')", // yahan apni background image ka path
       }}
     >
       {/* Overlay for opacity */}

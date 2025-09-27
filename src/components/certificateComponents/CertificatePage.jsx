@@ -51,7 +51,7 @@ const CertificatePage = () => {
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
          <a href="#certificate"> <button
-            className="px-6 py-3 rounded-full font-semibold shadow-md transition"
+            className="px-6 py-3 cursor-pointer rounded-full font-semibold shadow-md transition"
             style={{
               backgroundColor: "#D99021",
               color: "#171512",
@@ -66,7 +66,7 @@ const CertificatePage = () => {
             Learn More
           </button></a>
         <Link to="/contact">  <button
-            className="px-6 py-3 rounded-full border-2 font-semibold shadow-md transition"
+            className="px-6 py-3 cursor-pointer rounded-full border-2 font-semibold shadow-md transition"
             style={{
               borderColor: "#D99021",
               color: "#D99021",

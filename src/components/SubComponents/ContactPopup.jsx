@@ -34,7 +34,7 @@ function ContactPopup() {
             {/* Close Button */}
             <button
               onClick={() => setShowForm(false)}
-              className="absolute top-2 right-2 text-[#D99021] hover:text-black"
+              className="absolute top-2 right-2 text-[#D99021] hover:text-black cursor-pointer"
             >
               <X size={18} />
             </button>
@@ -66,7 +66,7 @@ function ContactPopup() {
               />
               <button
                 type="submit"
-                className="w-full bg-[#D99021] text-black font-medium py-1.5 rounded-md hover:bg-transparent transition hover:text-[#D99021] border-2 border-[#D99021]"
+                className="w-full bg-[#D99021] text-black font-medium py-1.5 rounded-md hover:bg-transparent transition hover:text-[#D99021] border-2 border-[#D99021] cursor-pointer"
               >
                 Send
               </button>

@@ -44,10 +44,10 @@ const HeroServices = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
-          <a href="#services"><button className="px-6 py-3 rounded-full bg-[#D99021] text-gray-900 font-semibold shadow-md hover:bg-transparent hover:border-2 border-[#D99021] hover:text-[#D99021] transition">
+          <a href="#services"><button className="px-6 py-3 rounded-full bg-[#D99021] text-gray-900 font-semibold shadow-md hover:bg-transparent hover:border-2 border-[#D99021] hover:text-[#D99021] transition cursor-pointer">
             Learn More
           </button></a>
-          <Link to="/gallery"><button className="px-6 py-3 rounded-full bg-transparent border-2 border-[#D99021] text-[#D99021] font-semibold shadow-md hover:bg-[#D99021] hover:text-gray-900 transition">
+          <Link to="/gallery"><button className="px-6 py-3 rounded-full bg-transparent border-2 border-[#D99021] text-[#D99021] font-semibold shadow-md hover:bg-[#D99021] hover:text-gray-900 transition cursor-pointer">
             Our Gallery
           </button></Link>
         </motion.div>

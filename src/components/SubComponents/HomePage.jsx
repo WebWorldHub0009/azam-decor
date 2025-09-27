@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const images = [
-  "https://picsum.photos/id/1015/1920/1080",
-  "https://picsum.photos/id/1018/1920/1080",
-  "https://picsum.photos/id/1019/1920/1080",
+  "/images/Tears of Joy_ Illuminate Your Space with the….jpeg",
+  "/images/9c174b35-e886-4979-bd76-7938a9b205f7.jpeg",
+  "/images/cb0d57ad-d293-4307-a420-bebb976a90e5.jpeg",
 ];
 
 export default function HomePage() {
@@ -60,13 +60,13 @@ export default function HomePage() {
         <div className="flex gap-4">
           <Link to="/services"><motion.button
             whileHover={{ scale: 1.1 }}
-            className="bg-[#D99021] hover:text-[#D99021]  hover:border-[#D99021] border-2 border-[#D99021] hover:bg-transparent  text-black px-6 py-3 rounded-xl font-semibold shadow-lg"
+            className="bg-[#D99021] hover:text-[#D99021]  hover:border-[#D99021] border-2 border-[#D99021] hover:bg-transparent  text-black px-6 py-3 rounded-xl font-semibold shadow-lg cursor-pointer"
           >
             Our Services
           </motion.button></Link>
           <Link to="/contact"><motion.button
             whileHover={{ scale: 1.1 }}
-            className="bg-transparent border-2 border-[#D99021] text-[#D99021] hover:bg-[#D99021] hover:text-black  px-6 py-3 rounded-xl font-semibold"
+            className="bg-transparent border-2 border-[#D99021] text-[#D99021] hover:bg-[#D99021] hover:text-black  px-6 py-3 rounded-xl font-semibold cursor-pointer"
           >
             Contact Us
           </motion.button></Link>

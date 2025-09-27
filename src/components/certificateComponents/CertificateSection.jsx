@@ -16,7 +16,7 @@ const certificates = [
 
 const CertificateSection = () => {
   return (
-    <section className="py-16 bg-[#171512] text-white" id="certificate">
+    <section className="py-16 bg-[#ffffff] text-white" id="certificate">
       <div className="container mx-auto px-6">
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center mb-12 text-[#D99021]">

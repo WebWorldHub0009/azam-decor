@@ -41,10 +41,10 @@ const GalleryHero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.6 }}
-          className="flex flex-col md:flex-row gap-4 justify-center"
+          className="flex flex-col md:flex-row gap-4 justify-center r"
         >
         <a href="#gallery">  <button
-            className="px-6 py-3 rounded-full font-semibold shadow-md transition"
+            className="px-6 py-3 rounded-full font-semibold shadow-md transition cursor-pointer"
             style={{ backgroundColor: "#D99021", color: "#171512" }}
             onMouseEnter={(e) =>
               (e.currentTarget.style.backgroundColor = "#c7801b")
@@ -56,7 +56,7 @@ const GalleryHero = () => {
             Learn More
           </button></a>
          <a href="/services"> <button
-            className="px-6 py-3 rounded-full border-2 font-semibold shadow-md transition"
+            className="px-6 py-3 cursor-pointer rounded-full border-2 font-semibold shadow-md transition"
             style={{
               borderColor: "#D99021",
               color: "#D99021",
