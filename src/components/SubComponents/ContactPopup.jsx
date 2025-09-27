@@ -30,7 +30,7 @@ function ContactPopup() {
             sm:w-64 sm:left-auto sm:-translate-x-0
           "
         >
-          <div className="bg-transparent p-4 rounded-lg relative border-l-4 border-[#D99021] shadow-none">
+          <div className="bg-transparent  p-4 rounded-lg relative border-l-4 border-[#D99021] shadow-none">
             {/* Close Button */}
             <button
               onClick={() => setShowForm(false)}

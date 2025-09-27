@@ -11,6 +11,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import Translator from "./Translator";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const [showTranslator, setShowTranslator] = useState(false);
@@ -54,6 +55,12 @@ export default function Footer() {
             </button>
             {showTranslator && <Translator />}
 
+             <Link
+              to="https://md-in-82.webhostbox.net:2096/cpsess3927650103/3rdparty/roundcube/?_task=mail&_mbox=INBOX"
+              className="bg-[#D99021] hover:bg-[#ff7f3d] text-white px-2 py-2 rounded-lg text-center font-medium transition transform hover:scale-105 duration-300 min-w-[120px]"
+            >
+              ✉️ Webmail
+            </Link>
           </div>
             
           </div>

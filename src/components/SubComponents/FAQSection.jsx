@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 
 const faqs = [
@@ -31,6 +31,7 @@ const faqs = [
 
 export default function FAQSection() {
   const [activeIndex, setActiveIndex] = useState(null);
+  const contentRefs = useRef([]);
 
   const toggleIndex = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -43,7 +44,6 @@ export default function FAQSection() {
         backgroundImage: "url('/images/🌟 Transform Your Living Area into a Happy Haven….jpeg')",
       }}
     >
-      {/* Overlay to reduce background brightness */}
       <div className="absolute inset-0 bg-black/60"></div>
 
       <div className="relative max-w-4xl mx-auto px-4">
@@ -51,11 +51,11 @@ export default function FAQSection() {
           Frequently Asked Questions
         </h2>
 
-        <div className="space-y-4 ">
+        <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border  border-[#D99021]/50 rounded-lg overflow-hidden"
+              className="border border-[#D99021]/50 rounded-lg overflow-hidden"
             >
               <button
                 className="w-full cursor-pointer px-6 py-4 flex justify-between items-center bg-[#171512]/80 hover:bg-[#D99021]/10 transition"
@@ -69,11 +69,18 @@ export default function FAQSection() {
                 )}
               </button>
 
-              {activeIndex === index && (
-                <div className="px-6 py-4 bg-[#171512]/80 text-gray-200">
-                  {faq.answer}
-                </div>
-              )}
+              <div
+                ref={(el) => (contentRefs.current[index] = el)}
+                className={`px-6 overflow-hidden transition-all duration-500 ease-in-out`}
+                style={{
+                  maxHeight:
+                    activeIndex === index
+                      ? `${contentRefs.current[index]?.scrollHeight}px`
+                      : "0px",
+                }}
+              >
+                <div className="py-4 bg-[#171512]/80 text-gray-200">{faq.answer}</div>
+              </div>
             </div>
           ))}
         </div>

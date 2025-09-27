@@ -19,16 +19,10 @@ import ScrollToTop from "./ScrollToTop";
 
 
 function App() {
-  
-
   return (
-
     <>
-    
     <Routes>
         <Route element={<Layout />}>
-        
-        
           <Route element={<ScrollToTop/>} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -40,12 +34,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
-    
-    
     </>
-    
-   
   )
 }
-
 export default App

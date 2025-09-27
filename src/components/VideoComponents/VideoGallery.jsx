@@ -6,37 +6,41 @@ const videos = [
     id: 1,
     title: "Luxury Living Room",
     description: "Modern interior design with premium finish.",
-    url: "https://www.youtube.com/embed/ysz5S6PUM-U",
+    url: "https://www.youtube.com/embed/kJybu7MjERY" 
   },
   {
     id: 2,
-    title: "Elegant Bedroom",
+    title: "PVC WALL PANEL",
     description: "Cozy and stylish bedroom decoration.",
-    url: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    url: "https://www.youtube.com/embed/CyT0lTzGxA0",
+  
   },
   {
     id: 3,
-    title: "Kitchen Design",
+    title: "KITCHEN DESIGN WALL",
     description: "Smart and modular kitchen ideas.",
-    url: "https://www.youtube.com/embed/tgbNymZ7vqY",
+    url: "https://www.youtube.com/embed/MWhkRALzroY",
+    
   },
   {
     id: 4,
-    title: "Office Setup",
+    title: "PVC DOOR",
     description: "Professional and creative office space.",
-    url: "https://www.youtube.com/embed/jfKfPfyJRdk",
+    url: "https://www.youtube.com/embed/idVo67D_VhU",
+    
   },
   {
     id: 5,
-    title: "Hall Interior",
+    title: "WALL PAPER",
     description: "Spacious and well-lit hall interiors.",
-    url: "https://www.youtube.com/embed/oUFJJNQGwhk",
+    url: "https://www.youtube.com/embed/n0o-IWjSA4E",
   },
   {
     id: 6,
-    title: "Balcony Design",
+    title: "UV MARBLE SHEET",
     description: "Relaxing and modern balcony setup.",
-    url: "https://www.youtube.com/embed/sBws8MSXN7A",
+    url: "https://www.youtube.com/embed/mU6fsz2_ZNQ",
+    
   },
 ];
 
@@ -76,7 +80,7 @@ export default function VideoGallery() {
                 {/* Show Video Button */}
                 <button
                   onClick={() => setSelectedVideo(video.url)}
-                  className="px-6 py-2 bg-[#D99021] text-white font-semibold rounded-lg shadow-md hover:bg-white hover:text-[#171512] transition duration-300"
+                  className="px-6 py-2 bg-[#D99021] text-white font-semibold rounded-lg shadow-md hover:bg-white hover:text-[#171512] transition duration-300 cursor-pointer"
                 >
                   Show Video
                 </button>
