@@ -61,6 +61,13 @@ const ContactPage = () => {
 
           {/* Contact Details */}
           <a
+            href="tel:+91781955700"
+            className="flex items-center gap-4 mb-4 hover:scale-105 transition"
+          >
+            <FaPhoneAlt className="text-[#D99021] text-2xl" />
+            <span>+91 781955700</span>
+          </a>
+          <a
             href="tel:+919259648796"
             className="flex items-center gap-4 mb-4 hover:scale-105 transition"
           >
@@ -131,7 +138,7 @@ const ContactPage = () => {
               <FaYoutube className="cursor-pointer hover:scale-125 transition text-[#D99021] hover:text-white" />
             </a>
             <a
-              href="https://wa.me/9690008555"
+              href="https://wa.me/+919259648796"
               target="_blank"
               rel="noopener noreferrer"
             >

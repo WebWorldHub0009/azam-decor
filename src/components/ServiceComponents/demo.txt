@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { motion } from "framer-motion";
 
 const serviceDetails = {
   1: {
     title: "PVC WALL PANEL",
     description:
-      "PVC wall panels provide a modern, stylish, and durable solution for interior spaces. Lightweight and easy to install, they are waterproof, termite-resistant, and low-maintenance. Available in diverse colors, textures, and designs, these panels enhance the aesthetic appeal of walls while offering practical benefits.",
+      "PVC wall panels provide a modern, stylish, and durable solution for interior spaces. Lightweight and easy to install, they are waterproof, termite-resistant, and low-maintenance. Available in diverse colors, textures, and designs, these panels enhance the aesthetic appeal of walls while offering practical benefits. Ideal for homes, offices, and commercial spaces, PVC wall panels combine elegance with functionality, ensuring long-lasting beauty and protection for any interior environment.",
     images: [
       "/images/d98db837-37f9-4066-ab8e-5f1a0c1732ed.jpeg",
       "/images/0d964cb5-6c65-4a78-aed1-a1ac966af1a3.jpeg",
@@ -19,7 +18,7 @@ const serviceDetails = {
   2: {
     title: "CEILING PANEL",
     description:
-      "Ceiling panels are high-quality wall coverings designed to protect and enhance interiors. They are durable, weather-resistant, and low-maintenance, providing excellent insulation and soundproofing. Available in a variety of finishes, they offer both style and protection.",
+      "Ceiling panels are high-quality exterior or interior wall coverings designed to protect and enhance the appearance of buildings. They are durable, weather-resistant, and low-maintenance, providing excellent insulation and soundproofing. Available in a variety of materials, textures, and finishes, cladding panels offer aesthetic appeal while safeguarding structures from environmental damage. Ideal for homes, offices, and commercial spaces, they combine functionality with style, delivering long-lasting protection and a modern, polished look.",
     images: [
       "/images/04272b1c-4ea0-41e2-beb5-48c259ffbdc6.jpeg",
       "/images/Contact us on 09060002990.jpeg",
@@ -120,7 +119,6 @@ const serviceDetails = {
       "/images/74421169-ad26-4a4e-add7-5b1ecdcfd652.jpeg",
     ],
   },
-
 };
 
 export default function ServiceDetail() {
@@ -132,7 +130,7 @@ export default function ServiceDetail() {
 
   if (!service) {
     return (
-      <div className="p-8 text-center">
+      <div className="p-8 text-center ">
         <h2 className="text-2xl font-bold text-[#D99021]">Service Not Found</h2>
         <button
           onClick={() => navigate(-1)}
@@ -145,79 +143,45 @@ export default function ServiceDetail() {
   }
 
   return (
-    <div className="mt-24">
-      {/* 🔥 Hero Section */}
-      <div
-        className="relative h-[70vh] flex items-center justify-center text-center text-white bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/21 Magical Nursery Décor Ideas to Create Your….jpeg')" }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
+    <div className="max-w-5xl mx-auto px-4 py-12 mt-24">
+      {/* Heading */}
+      <h1 className="text-4xl font-bold text-center text-[#D99021] mb-6">
+        {service.title}
+      </h1>
 
-        <motion.div
-          className="relative z-10 max-w-3xl px-4"
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          <h1 className="text-4xl md:text-6xl font-bold text-[#D99021] mb-4">
-            {service.title}
-          </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-6">
-            {service.description}
-          </p>
+      {/* Description */}
+      <p className="text-center text-gray-600 mb-12">{service.description}</p>
 
-          <div className="flex justify-center gap-4">
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              className="px-6 py-3 bg-[#D99021] text-[#171512] font-semibold rounded-lg shadow-lg hover:bg-transparent hover:text-[#D99021] transition hover:border-1 hover:border-[#D99021]"
-            >
-              Learn More
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.1 }}
-              onClick={() => navigate("/contact")}
-              className="px-6 py-3 bg-transparent border border-[#D99021] text-[#D99021] font-semibold rounded-lg shadow-lg hover:bg-[#D99021] hover:text-[#171512] transition"
-            >
-              Contact Us
-            </motion.button>
-          </div>
-        </motion.div>
-      </div>
-
-      {/* 🔥 Gallery Section */}
-      <div className="max-w-5xl mx-auto px-4 py-12">
-        <h2 className="text-3xl font-bold text-center text-[#D99021] mb-8">
-          {service.title} Gallery
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {service.images.map((img, index) => (
-            <div
-              key={index}
-              className="overflow-hidden rounded-lg cursor-pointer relative group"
-              onClick={() => setPopupImg(img)}
-            >
-              <img
-                src={img}
-                alt={`Service ${id} - ${index + 1}`}
-                className="w-full h-64 sm:h-80 object-cover transform group-hover:scale-105 transition duration-500"
-              />
-              <div className="absolute inset-0 bg-[#171512]/30 opacity-0 group-hover:opacity-100 transition duration-500"></div>
-            </div>
-          ))}
-        </div>
-
-        {/* Back Button */}
-        <div className="flex justify-center mt-12">
-          <button
-            onClick={() => navigate(-1)}
-            className="px-6 py-3 bg-[#172D20] text-[#D99021] font-semibold rounded hover:bg-[#D99021] hover:text-[#171512] transition cursor-pointer"
+      {/* Gallery */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {service.images.map((img, index) => (
+          <div
+            key={index}
+            className="overflow-hidden rounded-lg cursor-pointer relative group"
+            onClick={() => setPopupImg(img)}
           >
-            Back
-          </button>
-        </div>
+            <img
+              src={img}
+              alt={`Service ${id} - ${index + 1}`}
+              className="w-full h-64 sm:h-80 object-cover transform group-hover:scale-105 transition duration-500"
+            />
+            {/* Hover overlay */}
+            <div className="absolute inset-0 bg-[#171512]/30 opacity-0 group-hover:opacity-100 transition duration-500"></div>
+          </div>
+        ))}
       </div>
 
-      {/* 🔥 Popup Image */}
+      {/* Back Button at Bottom Center */}
+      <div className="flex justify-center mt-12">
+        <button
+          onClick={() => navigate(-1)}
+          className="px-6 py-3 bg-[#172D20] text-[#D99021] font-semibold rounded hover:bg-[#D99021] hover:text-[#171512] transition"
+        >
+          Back
+        </button>
+      </div>
+
+      {/* Popup */}
       {popupImg && (
         <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 p-4">
           <img

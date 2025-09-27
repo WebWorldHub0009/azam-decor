@@ -10,6 +10,8 @@ import ContactPage from './ContactComponents/ContactPage';
 import WhyChooseUs from './SubComponents/WhyChooseUs';
 import ContactPopup from './SubComponents/ContactPopup';
 import FloatingActionButton from './SubComponents/FloatingActionButton';
+import CertificateTestimonials from './certificateComponents/CertificateTestimonials';
+import FAQSection from './SubComponents/FAQSection';
 
 function Home() {
   return (
@@ -23,7 +25,9 @@ function Home() {
       {/* <HomeServices/> */}
       <TeamSection/>
       <Portfolio/>
+      <CertificateTestimonials/>
       <WhyChooseUs/>
+      <FAQSection/>
       <ContactPage/>
       
     </div>

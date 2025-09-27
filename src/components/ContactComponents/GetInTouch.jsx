@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaPinterest,
   FaYoutube,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const GetInTouch = () => {
@@ -65,8 +66,8 @@ const GetInTouch = () => {
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
-            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-              <FaPinterest className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
+            <a href="https://wa.me/+919259648796" target="_blank" rel="noopener noreferrer">
+              <FaWhatsapp className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />
             </a>
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
               <FaYoutube className="cursor-pointer hover:scale-125 transition text-[#ffffff] hover:text-[#D99021]" />

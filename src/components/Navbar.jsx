@@ -29,7 +29,7 @@ export default function Navbar() {
     { icon: <FaTwitter />, link: "https://twitter.com" },
     { icon: <FaLinkedin />, link: "https://linkedin.com" },
     { icon: <FaYoutube />, link: "https://youtube.com" },
-    { icon: <FaWhatsapp />, link: "https://wa.me/9690008555" },
+    { icon: <FaWhatsapp />, link: "https://wa.me/+919259648796" },
   ];
 
   return (

@@ -7,6 +7,8 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
+  FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 import Translator from "./Translator";
 
@@ -79,22 +81,16 @@ export default function Footer() {
               <FaMapMarkerAlt /> <span>Plot No. 4/1126 Ground Floor Street No.1 Hamdard Nagar B Jamalpur Aligarh Bypass Road Opposite Dipti Hospital Aligarh Uttar Pradesh 202001 India</span>
             </li>
             <li className="flex items-center gap-2 hover:text-[#D99021]">
-              <FaPhone /> <span><a href="tel:+919690008555">+919690008555</a></span>
+              <FaPhone /> <span><a href="tel:+919259648796">+91 9259648796</a></span>
+            </li>
+            <li className="flex items-center gap-2 hover:text-[#D99021]">
+              <FaPhone /> <span><a href="tel:+91781955700">+91 781955700</a></span>
             </li>
             <li className="flex items-center gap-2 hover:text-[#D99021]">
               <FaEnvelope /> <span><a href="https://azamdecoraligarh@gmail.com">azamdecoraligarh@gmail.com</a></span>
             </li>
             <li className="flex items-center gap-2 hover:text-[#D99021]">
               <FaEnvelope /> <span><a href="https://Info@azamdecor.in">Info@azamdecor.in</a></span>
-            </li>
-            <li className="flex items-center gap-2 hover:text-[#D99021]">
-              <FaEnvelope /> <span><a href="http://azamdecor.in">azamdecor.in</a></span>
-            </li>
-            <li className="flex items-center gap-2 hover:text-[#D99021]">
-              <FaEnvelope /> <span><a href="http://www.azamdecoraligarh.in">www.azamdecoraligarh.in</a></span>
-            </li>
-            <li className="flex items-center gap-2 hover:text-[#D99021]">
-              <FaEnvelope /> <span><a href="http://Info@azamdecoraligarh.in">Info@azamdecoraligarh.in</a></span>
             </li>
           </ul>
 
@@ -104,6 +100,8 @@ export default function Footer() {
             <a href="https://www.instagram.com/" className="hover:text-[#D99021]"><FaInstagram /></a>
             <a href="https://x.com/" className="hover:text-[#D99021]"><FaTwitter /></a>
             <a href="https://www.linkedin.com/" className="hover:text-[#D99021]"><FaLinkedin /></a>
+            <a href="https://www.youtube.com/" className="hover:text-[#D99021]"><FaYoutube /></a>
+            <a href="https://wa.me/+919259648796" className="hover:text-[#D99021]"><FaWhatsapp /></a>
           </div>
         </div>
       </div>

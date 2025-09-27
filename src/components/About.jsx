@@ -4,6 +4,7 @@ import AboutCards from './SubComponents/AboutCards'
 import MissionVision from './AboutComponents/MissionVision'
 import TeamSection from './SubComponents/TeamSection'
 import Portfolio from './SubComponents/Portfolio'
+import TestimonialsAbout from './AboutComponents/TestimonialsAbout'
 
 function About() {
   return (
@@ -11,6 +12,7 @@ function About() {
       <AboutPage/>
       <AboutCards/>
       <MissionVision/>
+      <TestimonialsAbout/>
       <TeamSection/>
 
     </div>

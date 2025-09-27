@@ -1,10 +1,12 @@
 import React from 'react'
+import VideoHero from './VideoComponents/VideoHero'
+import VideoGallery from './VideoComponents/VideoGallery'
 
 function Video() {
   return (
-    <div>
-      <h1>Video
-Video</h1>
+    <div className='mt-24'>
+      <VideoHero/>
+      <VideoGallery/>
     </div>
   )
 }

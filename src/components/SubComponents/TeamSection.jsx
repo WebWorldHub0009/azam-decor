@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "Azam Khan",
+    name: "Danish Malik",
     role: "Founder & Designer",
     image: "/images/↑↑↑ Larger size on website 🔸 A man with short….jpeg",
     bio: "Creative head with a passion for modern interior design and client satisfaction.",
   },
   {
-    name: "Ayan Khan",
+    name: "Azim Malik",
     role: "Project Manager",
     image: "/images/e21beaf3-460d-4c83-8d3d-b3a853657d83.jpeg",
     bio: "Expert in managing projects efficiently while ensuring top-notch quality.",
