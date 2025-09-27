@@ -14,6 +14,7 @@ import Video from "./components/Video";
 import Contact from "./components/Contact";
 import ServiceDetail from "./components/ServiceComponents/ServiceDetail";
 import ScrollToTop from "./ScrollToTop";
+import FloatingActionButton from "./components/SubComponents/FloatingActionButton";
 
 
 
@@ -21,9 +22,10 @@ import ScrollToTop from "./ScrollToTop";
 function App() {
   return (
     <>
+          <ScrollToTop/> 
+          <FloatingActionButton/>
     <Routes>
         <Route element={<Layout />}>
-          <Route element={<ScrollToTop/>} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
