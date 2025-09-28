@@ -169,9 +169,10 @@ export default function ServiceDetail() {
           <div className="flex justify-center gap-4">
             <motion.button
               whileHover={{ scale: 1.1 }}
+              onClick={() => navigate("/gallery")}
               className="px-6 py-3 bg-[#D99021] text-[#171512] font-semibold rounded-lg shadow-lg hover:bg-transparent hover:text-[#D99021] transition hover:border-1 hover:border-[#D99021]"
             >
-              Learn More
+              Show Gallery
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.1 }}

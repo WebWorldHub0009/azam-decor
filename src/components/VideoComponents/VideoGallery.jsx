@@ -48,7 +48,7 @@ export default function VideoGallery() {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   return (
-    <section className="py-16 bg-white text-[#171512]">
+    <section className="py-16 bg-white text-[#171512]" id="videogallery">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-4xl font-bold text-center text-[#D99021] mb-12">

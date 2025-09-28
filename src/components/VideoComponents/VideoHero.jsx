@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function VideoHero() {
   const backgroundFile = "/images/Autocollants de lignes fines dorées et de points….jpeg"; // Apni image ka path yahan do
+  
 
   return (
     <section className="relative w-full h-screen overflow-hidden">
@@ -27,12 +29,12 @@ export default function VideoHero() {
         </p>
 
         <div className="flex space-x-4">
-          <button className="px-6 py-3 bg-[#D99021] text-white font-semibold rounded-lg shadow-lg hover:bg-transparent hover:text-[#ffffff] transition duration-300 cursor-pointer hover:border-1 hover:border-[#D99021] hover:">
+          <a href="#videogallery"><button className="px-6 py-3 bg-[#D99021] text-white font-semibold rounded-lg shadow-lg hover:bg-transparent hover:text-[#ffffff] transition duration-300 cursor-pointer hover:border-1 hover:border-[#D99021] hover:">
             Show More
-          </button>
-          <button className="px-6 py-3 border border-[#D99021] text-white font-semibold rounded-lg shadow-lg hover:bg-[#D99021] hover:text-white transition duration-300 cursor-pointer">
+          </button></a>
+         <Link to="/contact"> <button className="px-6 py-3 border border-[#D99021] text-white font-semibold rounded-lg shadow-lg hover:bg-[#D99021] hover:text-white transition duration-300 cursor-pointer">
             Contact Us
-          </button>
+          </button></Link>
         </div>
       </div>
     </section>
